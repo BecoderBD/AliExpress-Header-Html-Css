@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+i,p{
+    color: white;
+}
+
+/* ----------------header top-------------- */
+.header_top{
+    height: 72px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #191919;
+}
+
+/* =========top1 logo section===== */
+.top1{
+    width: 256px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.top1 img{
+    height: 50px;
+}
+/* =========top 2 Search Section==== */
+.top2{
+    height: 40px;
+    width: 510px;
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 50px;
+
+}
+
+.top2input{
+    width: 450px;
+    height: 40px;
+    display: flex;
+    padding-left: 25px;
+}
+.top2input input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+.top2search{
+    height: 32px;
+    width: 56px;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* ==========top 3 section===== */
+
+.top3section{
+    height: 44px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    gap: 7px;
+    cursor: pointer;
+}
+.top3left img{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+}
+.top3right{
+    font-size: 0.8rem;
+}
+
+/* ==========top4 section========== */
+
+.top4left img{
+    height: 15px;
+    width: 20px;
+}
+.top4section{
+    height: 44px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    cursor: pointer;
+}
+
+.top4extra i{
+    padding-top: 22px;
+}
+
+/* =====================top 5 section==== */
+.top5section{
+    height: 44px;
+    width: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    cursor: pointe
+}
+
+.top5left{
+    display: flex;
+    align-items: center;
+}
+
+.top5left i{
+    font-size: 1.5rem;
+}
+
+/* ==============top 6 section====== */
+
+.top6section{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    cursor: pointe
+}
+
+.pcart{
+    height: 14px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px;
+}
+.pcart p{
+    color: #191919;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* ========================================= */
+/* -----------------------------Header Bottom------------------------ */
+.header_btm{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #191919;
+    font-size: 1.1rem;
+}
+
+.pcat{
+    width: 180px;
+    padding-left: 3px;
+}
+
+.catsec{
+    height: 40px;
+    width: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #535353;
+    border-radius: 50px;
+}
+.baricon{
+    padding-top: 3px;
+}
+
+.catdownicon{
+    font-size: 0.8rem;
+    padding-top: 4px;
+}
+
+/* ----------Bottom 2 section----- */
+.btm2{
+    height: 40px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* ----------Bottom 3 section----- */
+
+.btm3{
+    height: 40px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.btm4{
+    height: 40px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.btm5{
+    height: 40px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.btm6{
+    height: 40px;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.btm7{
+    height: 40px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+/* -------------------Hover css--------------------- */
+.btmHover:hover{
+    background-color: #535353;
+    border-radius: 60px;
+}
+
+/* ==============Header End================ */
